@@ -1,0 +1,52 @@
+
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <title> Clock </title>
+        <style>
+            *::selection {
+                background-color: rgba(255, 54, 131, 0.71);
+            }
+            #clock {
+                text-align: center;
+                width: 100%;
+                height: 30vh;
+                margin: 35vh 0;
+                font-size: 200px;
+                font-family: 'Lato';
+                font-weight: 200;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="clock"> Hello World </h1>
+        
+        <script>
+            
+            var clock = document.getElementById('clock');
+
+            function update() {
+                var time = new Date();
+                var mins = time.getMinutes().toString();
+                var secs = time.getSeconds().toString();
+                var hours = time.getHours().toString();
+                if (hours.length < 2) {
+                    hours = '0' + hours;
+                }
+                if (mins.length < 2) {
+                    mins = '0' + mins;
+                }
+                if (secs.length < 2) {
+                    secs = '0' + secs;
+                }
+                var display = hours + ' : ' + mins + ' : ' + secs;
+                clock.textContent = display;
+            }
+            update();
+            setInterval(update, 1000);
+            
+        </script>        
+    </body>
+</html>
