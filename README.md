@@ -21,7 +21,8 @@ if(mins.length<2){mins='0'+mins}
 if(secs.length<2){secs='0'+secs}
 var display=hours+' : '+mins+' : '+secs;var hex='#'+hours+mins+secs;clock.textContent=display;clock.style.color=hex}
 update();setInterval(update,1000);
-```, create a new file called `clock.min.js` and paste all the code from above into it. Otherwise you can just use 
+```
+Create a new file called `clock.min.js` and paste all the code from above into it. Otherwise you can just use 
 ```html
 <script src="https://aoneo.github.io/Clock.js/clock.js"></script>
 ```
