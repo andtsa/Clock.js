@@ -24,7 +24,7 @@ update();setInterval(update,1000);
 ```
 Create a new file called `clock.min.js` and paste all the code from above into it. Otherwise you can just use 
 ```html
-<script src="https://aoneo.github.io/Clock.js/clock.js"></script>
+<script src="https://andreasaoneo.github.io/Clock.js/clock.js"></script>
 ```
 **3.**
 Style the clock however you like, DO NOT USE MY `style.css` or `index.html`, it is not part of the clock.
