@@ -24,3 +24,5 @@ Create a new file called `clock.min.js` and paste all the code from above into i
 ```
 **3.**
 Style the clock however you like, DO NOT USE MY `style.css` or `index.html`, it is not part of the clock.
+
+linear-gradient(rgb(163.135593220339,230.93220338983053,213.54166666666666),rgb(213.54166666666666,230.93220338983053,163.135593220339))
